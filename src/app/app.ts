@@ -7,6 +7,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('angular');
+export class AppComponent {
+  titulo: string = 'Bienvenidos';
+  nombreProfesor: string = 'Pablo';
+  cantidadAlumnos: number = 25;
 }
