@@ -1,0 +1,15 @@
+import { Injectable } from '@angular/core';
+import { Estudiante } from '../models/estudiante';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EstudianteService {
+
+  getEstudiantes(): Estudiante[] {
+    return [
+      { id: 1, nombre: 'Ana', carrera: 'Sistemas', promedio: 4.5 },
+      { id: 2, nombre: 'Luis', carrera: 'Industrial', promedio: 4.2 }
+    ];
+  }
+}
