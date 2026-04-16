@@ -1,6 +1,60 @@
-# Angular
+# 🚀 Proyecto Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Este proyecto fue generado con Angular CLI versión **21.2.7** y está diseñado para el desarrollo de aplicaciones web modernas, escalables y mantenibles.
+
+---
+
+## 📌 Descripción General
+
+Esta aplicación web ha sido desarrollada utilizando el framework Angular con el objetivo de construir una interfaz de usuario dinámica, modular y fácil de mantener.  
+
+El proyecto sigue buenas prácticas de desarrollo frontend, incluyendo:
+- Separación de responsabilidades
+- Uso de componentes reutilizables
+- Organización modular
+- Escalabilidad del código
+
+---
+
+## 🎯 Objetivos del Proyecto
+
+- Implementar una aplicación web utilizando Angular
+- Comprender la arquitectura basada en componentes
+- Aplicar buenas prácticas de desarrollo frontend
+- Facilitar la reutilización de código
+- Crear una interfaz interactiva y responsive
+
+---
+
+## 🧰 Tecnologías Utilizadas
+
+- **Angular** → Framework principal
+- **TypeScript** → Lenguaje de programación
+- **HTML5** → Estructura de la aplicación
+- **CSS3 / SCSS** → Estilos
+- **Node.js** → Entorno de ejecución
+- **Angular CLI** → Herramienta de desarrollo
+- **RxJS** → Programación reactiva
+
+---
+
+## 📂 Estructura del Proyecto
+
+```bash
+src/
+│── app/
+│   ├── components/      # Componentes reutilizables
+│   ├── services/        # Servicios para lógica de negocio
+│   ├── models/          # Modelos de datos
+│   ├── pages/           # Vistas principales
+│   ├── app.component.*  # Componente raíz
+│   └── app.module.ts    # Módulo principal
+│
+│── assets/              # Recursos estáticos (imágenes, íconos)
+│── environments/        # Configuración de entornos
+│── index.html           # HTML principal
+│── main.ts              # Punto de entrada
+│── styles.css           # Estilos globales
 
 ## Development server
 
